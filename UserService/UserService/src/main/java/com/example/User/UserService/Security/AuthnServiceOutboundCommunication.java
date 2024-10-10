@@ -1,9 +1,9 @@
-package org.example.config;
+package com.example.User.UserService.Security;
 
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.data.redis.core.RedisTemplate;
+//import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
@@ -21,9 +21,6 @@ public class AuthnServiceOutboundCommunication {
 
     @Autowired
     RestTemplate rt;
-//
-//    @Autowired
-//    RedisTemplate redisTemplate;
 
 
     @Value("${medilab.authn.userinfo.endpoint}")
