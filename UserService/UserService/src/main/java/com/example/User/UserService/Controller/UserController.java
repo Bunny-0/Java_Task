@@ -47,4 +47,20 @@ public class UserController {
         UserResponseDto userResponseDto = userService.updateUser(user);
         return new ResponseEntity<>(userResponseDto, HttpStatus.ACCEPTED);
     }
+
+    @PostMapping("/users/{userId}/roles/{roleId}/provision")
+    public ResponseEntity<UserResponseDto> provisionUser(
+            @PathVariable String userId,
+            @PathVariable String roleId) {
+        UserResponseDto response = userService.provisioningUser(userId, roleId);
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/{userId}/roles/{roleId}/deprovision")
+    public ResponseEntity<UserResponseDto> deProvisionUser(
+            @PathVariable String userId,
+            @PathVariable String roleId) {
+        UserResponseDto response = userService.deProvisioningUser(userId, roleId);
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
 }
