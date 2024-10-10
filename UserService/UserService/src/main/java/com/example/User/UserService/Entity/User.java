@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class User {
 
     @Id
@@ -19,11 +20,7 @@ public class User {
     private String email;
     private String phoneNumber;
 
-    public User(int id, String userName, String password, String email, String phoneNumber) {
-        this.id = id;
-        this.name = userName;
-        Password = password;
-        this.email = email;
-        this.phoneNumber = phoneNumber;
-    }
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private UserRoles userRoles;
+
 }

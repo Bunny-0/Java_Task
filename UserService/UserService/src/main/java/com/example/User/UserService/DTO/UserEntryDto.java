@@ -16,4 +16,5 @@ public class UserEntryDto {
     private String Password;
     private String email;
     private String phoneNumber;
+    UserRolesBean userRolesBean;
 }

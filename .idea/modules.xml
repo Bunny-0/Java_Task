@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/JournalService/JournalService/JournalService.iml" filepath="$PROJECT_DIR$/JournalService/JournalService/JournalService.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-service/Medilab-gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/Medilab-gateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserService/UserService/UserService.iml" filepath="$PROJECT_DIR$/UserService/UserService/UserService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medilab-gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/medilab-gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medilab-user-management/medilab-user-management.iml" filepath="$PROJECT_DIR$/medilab-user-management/medilab-user-management.iml" />
     </modules>
   </component>
 </project>

@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/JournalService/JournalService/pom.xml" />
         <option value="$PROJECT_DIR$/Medilab-gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/medilab-user-management/pom.xml" />
       </list>
     </option>
   </component>
