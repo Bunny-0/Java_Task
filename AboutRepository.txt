@@ -1,0 +1,45 @@
+
+
+This project consists of two microservices: **UserService** and **JournalService**.
+
+## UserService
+
+The **UserService** microservice is responsible for managing and storing user details and roles. It provides a comprehensive set of APIs for user management, including functionalities for creating, updating, retrieving, and deleting user information.
+
+### Key Features:
+- User management APIs for handling user details.
+- Role management to define and assign roles to users.
+- JWT Token generation and validation for secure access to APIs.
+
+## JournalService
+
+The **JournalService** microservice is designed to retrieve events from the UserService and store the data in the database. This service helps in tracking user activities and storing relevant information efficiently.
+
+### Key Features:
+- Asynchronous communication with UserService via Kafka queues.
+- Data storage capabilities for user events in the database.
+
+## Communication
+
+The services communicate asynchronously through **Kafka queues**, enabling reliable and scalable interactions between them. This architecture allows for improved performance and responsiveness of the application.
+
+## Security
+
+To ensure secure access to the microservices, the following security measures are implemented:
+- **JWT Token Generation**: The project utilizes WSO2 to generate JWT tokens.
+- **Token Validation**: The microservices are secured with authentication tokens, which are validated on each API call.
+
+### Important Dependencies
+
+- **Spring Boot**: Framework used to build the microservices.
+- **Kafka**: For asynchronous communication between services.
+- **WSO2**: For JWT token generation and validation.
+
+## Getting Started
+
+### Prerequisites
+
+- JDK 17 or higher
+- Maven
+- Kafka server
+- WSO2 Identity Server

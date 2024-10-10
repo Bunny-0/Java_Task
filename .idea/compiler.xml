@@ -9,9 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JournalService" />
         <module name="Medilab-gateway-service" />
-        <module name="medilab-user-management" />
         <module name="UserService" />
-        <module name="gateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
