@@ -35,11 +35,36 @@ To ensure secure access to the microservices, the following security measures ar
 - **Kafka**: For asynchronous communication between services.
 - **WSO2**: For JWT token generation and validation.
 
-## Getting Started
+
+
+apis ->(To generate Token) 
+                        curl --location 'https://localhost:9443/oauth2/token' \
+                        --header 'Content-Type: application/x-www-form-urlencoded' \
+                        --header 'Authorization: Basic dVJib2pKSXVRZnd2VEhGMW1ySGZOMXlYRzVZYTpCeVRlaU9MWjlKRzF1VWl1QloyQlh2b096OWNh' \
+                        --header 'Cookie: JSESSIONID=0D8BD6BDE4C7B24A3C327E6AB58939FF' \
+                        --data-urlencode 'grant_type=password' \
+                        --data-urlencode 'username=admin' \
+                        --data-urlencode 'password=admin' \
+                        --data-urlencode 'scope=openid'
+
+
+
+      (To See the userInfo for tokens)
+                        curl --location 'https://localhost:9443/scim2/Users' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Bearer eyJ4NXQiOiJNell4TW1Ga09HWXdNV0kwWldObU5EY3hOR1l3WW1NNFpUQTNNV0kyTkRBelpHUXpOR00wWkdSbE5qSmtPREZrWkRSaU9URmtNV0ZoTXpVMlpHVmxOZyIsImtpZCI6Ik16WXhNbUZrT0dZd01XSTBaV05tTkRjeE5HWXdZbU00WlRBM01XSTJOREF6WkdRek5HTTBaR1JsTmpKa09ERmtaRFJpT1RGa01XRmhNelUyWkdWbE5nX1JTMjU2IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJhZG1pbiIsImF1dCI6IkFQUExJQ0FUSU9OX1VTRVIiLCJhdWQiOiJ1UmJvakpJdVFmd3ZUSEYxbXJIZk4xeVhHNVlhIiwibmJmIjoxNzI4NTM3NDE3LCJhenAiOiJ1UmJvakpJdVFmd3ZUSEYxbXJIZk4xeVhHNVlhIiwic2NvcGUiOiJvcGVuaWQiLCJpc3MiOiJodHRwczpcL1wvbG9jYWxob3N0Ojk0NDNcL29hdXRoMlwvdG9rZW4iLCJncm91cHMiOlsiYWRtaW4iLCJJbnRlcm5hbFwvYWRtaW4iLCJNZWRpTGFiQWRtaW4iLCJBcHBsaWNhdGlvblwvQ29uc29sZSIsIkFwcGxpY2F0aW9uXC9UZXN0aW5nX1NlY3VyaXR5IiwiQXBwbGljYXRpb25cL3VzZXItbWFuYWdlbWVudC1zZWN1cml0eSIsIkludGVybmFsXC9ldmVyeW9uZSIsIkFwcGxpY2F0aW9uXC9NeSBBY2NvdW50Il0sImV4cCI6MTcyODU0MTAxNywiaWF0IjoxNzI4NTM3NDE3LCJqdGkiOiIzOGRiOTIxMS1mYjcyLTQxYWYtODMzOC1lN2M1ZDlhMWVjN2MiLCJlbWFpbCI6ImFkbWluQHdzbzIuY29tIn0.e3CLdL98SlFwbt8CB30S6E5bQVWBZvSHug7EyhdTNiV4LGo0iYV5EfwLvHuDVRZ49RjDRYbsEFVIO3sWeoMpJd8sc8zSsPXKiKueoHoPtbNeyZAfxgGdirxiuOtNLLYxvSglbvq4LIkFL9T5dce1AREISaZHp_S5NvsKfcJFSLTpAgoIb0_vin5hCGTuaCivJJtE0LakxXIFTLprpoImKe5JjDXDEoGNDljIfmXwzdIwSUnaMv7e_f3g5TQk-vmEEUxAQ0yw9UDyJEOX7IM-mQ-NKKfxjIw9hPWN22QYYKx_G1lbMG8qON1QrHRj1HhfiZyrDB1cxxJYetE3T0Ureg' \
+--header 'Cookie: JSESSIONID=365C0A3158F178F9C2A27836A867B5D0C82FB013794E36B7DF08585270C695E9F7B6C7251B517DB472FC40AA3627F2A65438A1481939027C664235A5C1F2484A54E19A4F36951616A22203D20FF47B83AA78A011AC654CD440E5CA7705CB94C0B2E35167D6920DA9ABA1661E83BA63FD045CE385BC792EFBE805800CD96AC6B0; JSESSIONID=0D8BD6BDE4C7B24A3C327E6AB58939FF' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'username=james' \
+--data-urlencode 'password=james@123'
+
+
+
+
 
 ### Prerequisites
 
-- JDK 17 or higher
+- JDK 17 
 - Maven
 - Kafka server
 - WSO2 Identity Server
