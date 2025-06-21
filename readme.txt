@@ -1,4 +1,4 @@
-"Good [morning/afternoon], everyone. Today, I will be presenting an overview of Clojure and its applications. Here's the agenda for our discussion:
+https://chatgpt.com/share/685637eb-cfd4-8012-864b-ada5241438a3"Good [morning/afternoon], everyone. Today, I will be presenting an overview of Clojure and its applications. Here's the agenda for our discussion:
 
 1. We’ll begin by understanding What Clojure is.
 
