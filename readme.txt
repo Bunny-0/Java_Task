@@ -1,5 +1,5 @@
 https://chatgpt.com/share/685637eb-cfd4-8012-864b-ada5241438a3
-
+https://teams.microsoft.com/meet/45159124267626?p=wURJqn1nS3fwxxDWKD
 i am giving u past years questions for cpxb exam delhi .
 
 today is my exam can tou provide me imp questions to pract8ce and concepts to see.
