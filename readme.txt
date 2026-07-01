@@ -11,8 +11,7 @@ A) echo "\n";
 
 
 
-C) printf("\n');
-
+C) printf("\ggg
 D) printf("\n");
 
 Q42. Disadvantages of File systems to store data is:
@@ -803,7 +802,51 @@ It’s especially suited for applications that require handling concurrency, eff
 * Experienced in designing and managing scalable cloud solutions using AWS, Terraform, Kubernetes (EKS), Docker, and Jenkins.
 * Skilled in CI/CD pipeline implementation, container orchestration, and deployment automation to improve software delivery and operational efficiency.
 * Proficient in cloud monitoring, production support, and infrastructure management using Prometheus, Grafana, CloudWatch, Linux, Python, and VMware.
-
+SIMRAN GAURAV
+Senior Consultant
+📞 +91 7980459461
+✉️ simrangauravofficial@gmail.com
+Professional Background
+DevOps Engineer with 5 years 10 months of experience in Cloud Infrastructure, DevOps, and Infrastructure Automation.
+Hands-on expertise in AWS Cloud, Terraform, Kubernetes (EKS), Docker, Jenkins, and GitHub for building scalable and secure cloud solutions.
+Experienced in CI/CD pipeline implementation, Infrastructure as Code, deployment automation, and cloud-native application management.
+Skilled in cloud monitoring, production support, automation, and Agile delivery using CloudWatch, Prometheus, Python, Linux, and DevOps best practices.
+Core Competencies
+Cloud Infrastructure Automation (AWS & Terraform)
+CI/CD Pipeline Development & Release Management
+Kubernetes (EKS) & Docker Containerization
+Infrastructure as Code (Terraform)
+DevOps Automation & Python Scripting
+Cloud Monitoring & Observability
+Linux Administration
+Agile/Scrum Methodology
+Tools and Technologies
+Cloud: AWS (EC2, EKS, VPC, IAM, S3, Route 53, CloudWatch)
+Infrastructure as Code: Terraform
+CI/CD: Jenkins, GitHub
+Containers: Docker, Kubernetes, Helm
+Scripting: Python (Boto3)
+Operating System: Linux
+Monitoring: Prometheus, CloudWatch
+Others: VMware, JIRA
+Education
+Bachelor of Technology (Computer Science & Engineering)
+Techno India University
+CGPA: 8.44
+Certification
+AWS Certified Cloud Practitioner
+Microsoft Certified: DevOps Engineer Expert (AZ-400)
+SUSE Certified Administrator in SUSE Linux Enterprise Server 15
+Project Highlights
+Enterprise Cloud Infrastructure Automation
+Automated AWS infrastructure provisioning using Terraform for services including EC2, EKS, VPC, IAM, S3, and Route 53, enabling scalable and reliable cloud deployments.
+Developed reusable Terraform modules that reduced deployment time by 40% while minimizing configuration drift.
+CI/CD & Kubernetes Platform
+Designed and maintained CI/CD pipelines using Jenkins and GitHub, reducing deployment time by 50% and improving release efficiency.
+Managed containerized applications on Kubernetes (EKS), implementing deployments, services, and rolling updates for high availability.
+DevOps Automation & Monitoring
+Developed Python (Boto3) automation scripts and integrated GitHub and JIRA APIs to streamline operational tasks and improve productivity.
+Implemented proactive infrastructure monitoring using AWS CloudWatch and Prometheus, reducing production downtime by 20%.
 If you enjoy working with functional programming concepts and appreciate a minimalist syntax, Clojure is definitely a great language to learn and work with
 
 
