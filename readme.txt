@@ -799,7 +799,10 @@ This approach allows for efficient bulk processing, where data flows smoothly fr
 
 In conclusion, Clojure is a modern and functional programming language that focuses on key principles like immutability, simplicity, and concurrency.
 
-It’s especially suited for applications that require handling concurrency, efficient data processing, and scalability.
+It’s especially suited for applications that require handling concurrency, efficient data processing, and scalability.* DevOps Engineer with 5 years 10 months of experience in Cloud Infrastructure, DevOps, and Infrastructure Automation.
+* Experienced in designing and managing scalable cloud solutions using AWS, Terraform, Kubernetes (EKS), Docker, and Jenkins.
+* Skilled in CI/CD pipeline implementation, container orchestration, and deployment automation to improve software delivery and operational efficiency.
+* Proficient in cloud monitoring, production support, and infrastructure management using Prometheus, Grafana, CloudWatch, Linux, Python, and VMware.
 
 If you enjoy working with functional programming concepts and appreciate a minimalist syntax, Clojure is definitely a great language to learn and work with
 
