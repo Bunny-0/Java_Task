@@ -852,6 +852,13 @@ If you enjoy working with functional programming concepts and appreciate a minim
 
 Once you have these tools installed, you’ll be ready to start coding in Clojure."
 
-
+DevOps Engineer with 5 years 10 months of experience in designing, implementing, and supporting cloud-native infrastructure, CI/CD pipelines, and automation solutions across enterprise environments.
+Hands-on experience with AWS, Terraform, Kubernetes (EKS), Docker, Jenkins, GitHub, and Ansible, enabling scalable, secure, and highly available infrastructure through Infrastructure as Code (IaC) and container orchestration.
+Expertise in building and maintaining end-to-end CI/CD pipelines, automating application deployments, infrastructure provisioning, and release processes to improve deployment speed, reliability, and operational efficiency.
+Strong experience in production support and incident management, ensuring high system availability, performing root cause analysis (RCA), troubleshooting critical issues, and maintaining SLA compliance in enterprise environments.
+Proficient in implementing monitoring and observability solutions using Prometheus, Grafana, AWS CloudWatch, and Linux administration to proactively identify performance bottlenecks and improve system reliability.
+Experienced in collaborating with cross-functional Agile teams, including developers, QA, architects, and operations teams, to deliver high-quality software releases while following DevOps best practices.
+Skilled in developing automation scripts using Python and Shell scripting to streamline operational tasks, reduce manual effort, and improve consistency across deployment and infrastructure management activities.
+Previously worked as a DevOps Engineer supporting SAP enterprise cloud environments, contributing to infrastructure automation, deployment activities, production operations, and platform stability for large-scale enterprise applications.
 
 
