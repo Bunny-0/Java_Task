@@ -1,6 +1,26 @@
 https://chatgpt.com/share/685637eb-cfd4-8012-864b-ada5241438a3
 i am giving u past years questions for cpxb exam delhi .
+Enterprise Cloud Infrastructure (SAP Enterprise Cloud Landscape)
+Managed and automated AWS infrastructure for SAP enterprise cloud environments using Terraform, provisioning services such as EC2, EKS, VPC, IAM, S3, and Route 53.
+Developed reusable Infrastructure as Code (IaC) modules, ensuring standardized, scalable, and consistent infrastructure deployments.
+Improved environment reliability by optimizing infrastructure, reducing configuration drift, and automating provisioning processes.
+Collaborated with SAP Basis, application, and infrastructure teams to support production deployments and environment readiness.
+CI/CD, Kubernetes & Release Management
+Designed and maintained end-to-end CI/CD pipelines using Jenkins and GitHub to automate build, test, and deployment workflows.
+Managed Kubernetes (EKS) deployments using Helm, performing rolling updates, scaling, and rollback activities for production applications.
+Automated application releases, improving deployment speed, consistency, and overall release quality.
+Worked closely with Agile development and QA teams to ensure seamless software delivery with minimal downtime.
+Production Support, Automation & Monitoring
+Provided production support for mission-critical SAP cloud environments, performing incident resolution, RCA, and ensuring SLA compliance.
+Developed automation scripts using Python (Boto3) and Shell scripting to streamline operational tasks and reduce manual effort.
+Implemented proactive monitoring and alerting using Prometheus, Grafana, and AWS CloudWatch to improve system availability.
+Performed Linux administration, log analysis, health checks, and performance tuning to maintain platform stability and operational excellence.
 
+DevOps Engineer with 5 years 10 months of experience in cloud infrastructure, CI/CD, Infrastructure as Code (IaC), and automation across enterprise environments.
+Hands-on experience with AWS, Terraform, Kubernetes (EKS), Docker, Jenkins, GitHub, Ansible, and Python, building scalable, secure, and highly available cloud solutions.
+Expertise in designing and maintaining end-to-end CI/CD pipelines, automating infrastructure provisioning and application deployments to improve delivery speed and operational efficiency.
+Strong experience in production support, incident management, monitoring, and troubleshooting using Prometheus, Grafana, AWS CloudWatch, and Linux, ensuring high availability and SLA compliance.
+Previously supported SAP enterprise cloud environments, collaborating with cross-functional Agile teams to deliver reliable infrastructure, automate operations, and enhance platform stability.
 today is my exam can tou provide me imp questions to pract8ce and concepts to see.
 
 Q41. How will you print in on the screen?
